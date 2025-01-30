@@ -1,0 +1,6 @@
+# Find OpenSSL version
+pkg-config --modversion openssl
+
+# Get include and library paths
+pkg-config --cflags openssl
+pkg-config --libs openssl
